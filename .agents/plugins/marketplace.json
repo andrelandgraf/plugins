@@ -562,16 +562,6 @@
             "category": "Productivity"
         },
         {
-            "name": "cloudflare",
-            "source": {
-                "source": "local",
-                "path": "./plugins/cloudflare"
-            },
-            "installPolicy": "AVAILABLE",
-            "authPolicy": "ON_INSTALL",
-            "category": "Coding"
-        },
-        {
             "name": "cloudinary",
             "source": {
                 "source": "local",
@@ -880,16 +870,6 @@
             "installPolicy": "AVAILABLE",
             "authPolicy": "ON_INSTALL",
             "category": "Lifestyle"
-        },
-        {
-            "name": "github",
-            "source": {
-                "source": "local",
-                "path": "./plugins/github"
-            },
-            "installPolicy": "AVAILABLE",
-            "authPolicy": "ON_INSTALL",
-            "category": "Coding"
         },
         {
             "name": "granola",
@@ -1402,16 +1382,6 @@
             "category": "Lifestyle"
         },
         {
-            "name": "notion",
-            "source": {
-                "source": "local",
-                "path": "./plugins/notion"
-            },
-            "installPolicy": "AVAILABLE",
-            "authPolicy": "ON_INSTALL",
-            "category": "Productivity"
-        },
-        {
             "name": "okx",
             "source": {
                 "source": "local",
@@ -1660,16 +1630,6 @@
             "installPolicy": "AVAILABLE",
             "authPolicy": "ON_INSTALL",
             "category": "Research"
-        },
-        {
-            "name": "sentry",
-            "source": {
-                "source": "local",
-                "path": "./plugins/sentry"
-            },
-            "installPolicy": "AVAILABLE",
-            "authPolicy": "ON_INSTALL",
-            "category": "Coding"
         },
         {
             "name": "shazam",
@@ -2170,6 +2130,46 @@
             "installPolicy": "AVAILABLE",
             "authPolicy": "ON_INSTALL",
             "category": "Lifestyle"
+        },
+        {
+            "name": "cloudflare",
+            "source": {
+                "source": "local",
+                "path": "./plugins/cloudflare"
+            },
+            "installPolicy": "AVAILABLE",
+            "authPolicy": "ON_INSTALL",
+            "category": "Coding"
+        },
+        {
+            "name": "github",
+            "source": {
+                "source": "local",
+                "path": "./plugins/github"
+            },
+            "installPolicy": "AVAILABLE",
+            "authPolicy": "ON_INSTALL",
+            "category": "Coding"
+        },
+        {
+            "name": "notion",
+            "source": {
+                "source": "local",
+                "path": "./plugins/notion"
+            },
+            "installPolicy": "AVAILABLE",
+            "authPolicy": "ON_INSTALL",
+            "category": "Productivity"
+        },
+        {
+            "name": "sentry",
+            "source": {
+                "source": "local",
+                "path": "./plugins/sentry"
+            },
+            "installPolicy": "AVAILABLE",
+            "authPolicy": "ON_INSTALL",
+            "category": "Coding"
         }
     ]
 }
