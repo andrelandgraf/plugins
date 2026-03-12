@@ -14,13 +14,15 @@
     "cloudflare",
     "deployment",
     "edge",
-    "analytics"
+    "analytics",
+    "wrangler",
+    "agents-sdk"
   ],
   "skills": "./skills/",
   "interface": {
     "displayName": "Cloudflare",
     "shortDescription": "Use Cloudflare platform skills",
-    "longDescription": "Use Cloudflare skills to choose the right product, verify setup, and work across Workers, Pages, storage, AI, networking, security, and analytics services.",
+    "longDescription": "Use Cloudflare skills to choose the right product, verify setup, and work across Workers, Pages, Wrangler, Agents SDK, storage, AI, networking, security, and analytics services.",
     "developerName": "OpenAI",
     "category": "Productivity",
     "capabilities": [
