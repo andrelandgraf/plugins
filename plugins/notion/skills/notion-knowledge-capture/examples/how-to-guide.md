@@ -21,7 +21,7 @@ Organized into:
 
 ### 3. Find Location
 ```
-Notion:notion-search
+Notion:search
 query: "deployment documentation"
 ```
 Found: Engineering Wiki → Deployment section

@@ -11,7 +11,7 @@ Prep meetings by pulling Notion context, tailoring agendas/pre-reads, and enrich
 
 ## Quick start
 1) Confirm meeting goal, attendees, date/time, and decisions needed.
-2) Gather context: search with `Notion:notion-search`, then fetch with `Notion:notion-fetch` (prior notes, specs, OKRs, decisions).
+2) Gather context: search with `Notion:search`, then fetch with `Notion:fetch` (prior notes, specs, OKRs, decisions).
 3) Pick the right template via `reference/template-selection-guide.md` (status, decision, planning, retro, 1:1, brainstorming).
 4) Draft agenda/pre-read in Notion with `Notion:notion-create-pages`, embedding source links and owner/timeboxes.
 5) Enrich with Codex research (industry insights, benchmarks, risks) and update the page with `Notion:notion-update-page` as plans change.
@@ -29,7 +29,7 @@ After successful login, the user will have to restart codex. You should finish y
 
 ### 1) Gather inputs
 - Ask for objective, desired outcomes/decisions, attendees, duration, date/time, and prior materials.
-- Search Notion for relevant docs, past notes, specs, and action items (`Notion:notion-search`), then fetch key pages (`Notion:notion-fetch`).
+- Search Notion for relevant docs, past notes, specs, and action items (`Notion:search`), then fetch key pages (`Notion:fetch`).
 - Capture blockers/risks and open questions up front.
 
 ### 2) Choose format

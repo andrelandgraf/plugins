@@ -6,7 +6,7 @@
 
 ### 1. Search for Context
 ```
-Notion:notion-search
+Notion:search
 query: "sprint planning" + "product backlog"
 teamspace_id: "engineering-team"
 ```
@@ -19,7 +19,7 @@ Found:
 
 ### 2. Fetch Details
 ```
-Notion:notion-fetch (4 pages)
+Notion:fetch (4 pages)
 ```
 
 **Key context**:

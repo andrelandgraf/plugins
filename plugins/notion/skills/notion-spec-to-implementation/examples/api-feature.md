@@ -9,7 +9,7 @@
 ### Step 1: Fetch Specification
 
 ```
-Notion:notion-search
+Notion:search
 query: "User Profile API spec"
 query_type: "internal"
 ```
@@ -17,7 +17,7 @@ query_type: "internal"
 Found: "User Profile API Specification" in Engineering Specs
 
 ```
-Notion:notion-fetch
+Notion:fetch
 id: "user-profile-api-spec-page-id"
 ```
 
@@ -304,7 +304,7 @@ None currently
 ### Step 4: Find Task Database
 
 ```
-Notion:notion-search
+Notion:search
 query: "Tasks database"
 query_type: "internal"
 ```
@@ -314,7 +314,7 @@ Found: "Engineering Tasks" database
 ### Step 5: Fetch Task Database Schema
 
 ```
-Notion:notion-fetch
+Notion:fetch
 id: "tasks-database-id"
 ```
 

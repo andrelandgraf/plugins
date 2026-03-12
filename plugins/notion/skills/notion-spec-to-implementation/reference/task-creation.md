@@ -6,11 +6,11 @@ Before creating tasks, locate the task database:
 
 ```
 1. Search for task database:
-   Notion:notion-search
+   Notion:search
    query: "Tasks" or "Task Management" or "[Project] Tasks"
    
 2. Fetch database schema:
-   Notion:notion-fetch
+   Notion:fetch
    id: "database-id-from-search"
    
 3. Identify data source:
@@ -23,11 +23,11 @@ Before creating tasks, locate the task database:
    - Relation properties for linking
 
 Example:
-Notion:notion-search
+Notion:search
 query: "Engineering Tasks"
 query_type: "internal"
 
-Notion:notion-fetch
+Notion:fetch
 id: "tasks-database-id"
 ```
 

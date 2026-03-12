@@ -12,7 +12,7 @@ Convert conversations and notes into structured, linkable Notion pages for easy 
 ## Quick start
 1) Clarify what to capture (decision, how-to, FAQ, learning, documentation) and target audience.
 2) Identify the right database/template in `reference/` (team wiki, how-to, FAQ, decision log, learning, documentation).
-3) Pull any prior context from Notion with `Notion:notion-search` → `Notion:notion-fetch` (existing pages to update/link).
+3) Pull any prior context from Notion with `Notion:search` → `Notion:fetch` (existing pages to update/link).
 4) Draft the page with `Notion:notion-create-pages` using the database’s schema; include summary, context, source links, and tags/owners.
 5) Link from hub pages and related records; update status/owners with `Notion:notion-update-page` as the source evolves.
 

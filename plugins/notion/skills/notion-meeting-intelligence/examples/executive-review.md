@@ -6,7 +6,7 @@
 
 ### 1. Search for Context
 ```
-Notion:notion-search
+Notion:search
 query: "Q4 objectives" + "KPIs" + "quarterly results"
 ```
 
@@ -18,7 +18,7 @@ Found:
 
 ### 2. Fetch & Analyze
 ```
-Notion:notion-fetch (5 pages)
+Notion:fetch (5 pages)
 ```
 
 **Key metrics**:

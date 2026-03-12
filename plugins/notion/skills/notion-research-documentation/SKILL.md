@@ -10,8 +10,8 @@ metadata:
 Pull relevant Notion pages, synthesize findings, and publish clear briefs or reports (with citations and links to sources).
 
 ## Quick start
-1) Find sources with `Notion:notion-search` using targeted queries; confirm scope with the user.
-2) Fetch pages via `Notion:notion-fetch`; note key sections and capture citations (`reference/citations.md`).
+1) Find sources with `Notion:search` using targeted queries; confirm scope with the user.
+2) Fetch pages via `Notion:fetch`; note key sections and capture citations (`reference/citations.md`).
 3) Choose output format (brief, summary, comparison, comprehensive report) using `reference/format-selection-guide.md`.
 4) Draft in Notion with `Notion:notion-create-pages` using the matching template (quick, summary, comparison, comprehensive).
 5) Link sources and add a references/citations section; update as new info arrives with `Notion:notion-update-page`.
@@ -28,8 +28,8 @@ Pull relevant Notion pages, synthesize findings, and publish clear briefs or rep
 After successful login, the user will have to restart codex. You should finish your answer and tell them so when they try again they can continue with Step 1.
 
 ### 1) Gather sources
-- Search first (`Notion:notion-search`); refine queries, and ask the user to confirm if multiple results appear.
-- Fetch relevant pages (`Notion:notion-fetch`), skim for facts, metrics, claims, constraints, and dates.
+- Search first (`Notion:search`); refine queries, and ask the user to confirm if multiple results appear.
+- Fetch relevant pages (`Notion:fetch`), skim for facts, metrics, claims, constraints, and dates.
 - Track each source URL/ID for later citation; prefer direct quotes for critical facts.
 
 ### 2) Select the format

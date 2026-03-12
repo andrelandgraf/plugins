@@ -6,14 +6,14 @@
 
 ### 1. Search
 ```
-Notion:notion-search
+Notion:search
 query: "AI coding assistants market"
 ```
 Found 3 relevant pages across Engineering, Strategy, and Product teamspaces.
 
 ### 2. Fetch & Analyze
 ```
-Notion:notion-fetch (3x)
+Notion:fetch (3x)
 ```
 Extracted market size, competitive landscape, technology trends from source pages.
 

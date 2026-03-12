@@ -10,7 +10,7 @@ metadata:
 Convert a Notion spec into linked implementation plans, tasks, and ongoing status updates.
 
 ## Quick start
-1) Locate the spec with `Notion:notion-search`, then fetch it with `Notion:notion-fetch`.
+1) Locate the spec with `Notion:search`, then fetch it with `Notion:fetch`.
 2) Parse requirements and ambiguities using `reference/spec-parsing.md`.
 3) Create a plan page with `Notion:notion-create-pages` (pick a template: quick vs. full).
 4) Find the task database, confirm schema, then create tasks with `Notion:notion-create-pages`.
@@ -29,8 +29,8 @@ Convert a Notion spec into linked implementation plans, tasks, and ongoing statu
 After successful login, the user will have to restart codex. You should finish your answer and tell them so when they try again they can continue with Step 1.
 
 ### 1) Locate and read the spec
-- Search first (`Notion:notion-search`); if multiple hits, ask the user which to use.
-- Fetch the page (`Notion:notion-fetch`) and scan for requirements, acceptance criteria, constraints, and priorities. See `reference/spec-parsing.md` for extraction patterns.
+- Search first (`Notion:search`); if multiple hits, ask the user which to use.
+- Fetch the page (`Notion:fetch`) and scan for requirements, acceptance criteria, constraints, and priorities. See `reference/spec-parsing.md` for extraction patterns.
 - Capture gaps/assumptions in a clarifications block before proceeding.
 
 ### 2) Choose plan depth
@@ -39,7 +39,7 @@ After successful login, the user will have to restart codex. You should finish y
 - Create the plan via `Notion:notion-create-pages`, include: overview, linked spec, requirements summary, phases, dependencies/risks, and success criteria. Link back to the spec.
 
 ### 3) Create tasks
-- Find the task database (`Notion:notion-search` → `Notion:notion-fetch` to confirm the data source and required properties). Patterns in `reference/task-creation.md`.
+- Find the task database (`Notion:search` → `Notion:fetch` to confirm the data source and required properties). Patterns in `reference/task-creation.md`.
 - Size tasks to 1–2 days. Use `reference/task-creation-template.md` for content (context, objective, acceptance criteria, dependencies, resources).
 - Set properties: title/action verb, status, priority, relations to spec + plan, due date/story points/assignee if provided.
 - Create pages with `Notion:notion-create-pages` using the database’s `data_source_id`.

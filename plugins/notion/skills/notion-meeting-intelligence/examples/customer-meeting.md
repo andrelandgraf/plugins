@@ -6,7 +6,7 @@
 
 ### 1. Search Customer Info
 ```
-Notion:notion-search
+Notion:search
 query: "Acme Corp"
 ```
 
@@ -18,7 +18,7 @@ Found:
 
 ### 2. Fetch Details
 ```
-Notion:notion-fetch (4 pages)
+Notion:fetch (4 pages)
 ```
 
 **Key context**:

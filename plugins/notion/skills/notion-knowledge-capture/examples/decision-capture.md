@@ -13,7 +13,7 @@ From conversation, identified:
 
 ### 2. Find Decision Log
 ```
-Notion:notion-search
+Notion:search
 query: "architecture decisions" or "ADR"
 ```
 
@@ -21,7 +21,7 @@ Found: "Architecture Decision Records" database
 
 ### 3. Fetch Schema
 ```
-Notion:notion-fetch
+Notion:fetch
 ```
 
 Got properties: Decision (title), Date, Status, Domain, Impact, Deciders, Stakeholders

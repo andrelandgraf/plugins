@@ -6,14 +6,14 @@
 
 ### 1. Search Existing Notes
 ```
-Notion:notion-search
+Notion:search
 query: "Japan travel"
 ```
 Found: Japan Travel Guide (from friend), Tokyo Restaurants, Kyoto Temple Guide
 
 ### 2. Fetch & Extract Tips
 ```
-Notion:notion-fetch (3x)
+Notion:fetch (3x)
 ```
 **Key info from previous travelers:**
 - Best time: March-April (cherry blossoms)

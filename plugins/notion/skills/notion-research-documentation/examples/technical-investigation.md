@@ -9,7 +9,7 @@
 ### Step 1: Search for Caching Information
 
 ```
-Notion:notion-search
+Notion:search
 query: "caching strategy architecture"
 query_type: "internal"
 teamspace_id: "engineering-teamspace-id"
@@ -24,21 +24,21 @@ teamspace_id: "engineering-teamspace-id"
 ### Step 2: Fetch Relevant Pages
 
 ```
-Notion:notion-fetch
+Notion:fetch
 id: "system-architecture-page-url"
 ```
 
 Extracted: Current caching architecture uses Redis for API responses, Memcached for session storage.
 
 ```
-Notion:notion-fetch
+Notion:fetch
 id: "redis-implementation-guide-url"
 ```
 
 Extracted: Implementation details, TTL settings, invalidation strategies.
 
 ```
-Notion:notion-fetch
+Notion:fetch
 id: "api-caching-decision-record-url"
 ```
 

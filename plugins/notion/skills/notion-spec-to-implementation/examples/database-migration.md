@@ -6,8 +6,8 @@
 
 ### 1. Find & Fetch Spec
 ```
-Notion:notion-search → Found "User Preferences Schema Migration Spec"
-Notion:notion-fetch → Extracted requirements
+Notion:search → Found "User Preferences Schema Migration Spec"
+Notion:fetch → Extracted requirements
 ```
 
 **Spec Summary**: Migrate from JSON blob to structured schema for better performance and data integrity.
@@ -38,8 +38,8 @@ pages: [{
 
 ### 4. Find Task Database & Create Tasks
 ```
-Notion:notion-search → Found "Engineering Tasks" database
-Notion:notion-fetch → Got schema (Task, Status, Priority, Assignee, etc.)
+Notion:search → Found "Engineering Tasks" database
+Notion:fetch → Got schema (Task, Status, Priority, Assignee, etc.)
 
 Notion:notion-create-pages
 parent: { data_source_id: "collection://xyz" }
