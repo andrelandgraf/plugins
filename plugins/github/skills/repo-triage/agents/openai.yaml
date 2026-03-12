@@ -1,0 +1,4 @@
+interface:
+  display_name: "Repo Triage"
+  short_description: "Prioritize GitHub issues and pull requests with concrete next actions"
+  default_prompt: "Triage the current GitHub issue/PR queue and produce a prioritized action list."

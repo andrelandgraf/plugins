@@ -1,0 +1,39 @@
+{
+  "name": "notion",
+  "version": "0.1.0",
+  "description": "Capture knowledge, research pages, and turn Notion specs into execution artifacts.",
+  "author": {
+    "name": "OpenAI",
+    "email": "support@openai.com",
+    "url": "https://openai.com/"
+  },
+  "homepage": "https://www.notion.com/",
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": [
+    "notion",
+    "knowledge-management",
+    "documentation"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Notion",
+    "shortDescription": "Capture knowledge and turn specs into plans",
+    "longDescription": "Use Notion context to capture decisions, prepare meetings, research linked pages, and turn specs into implementation plans through the connected Notion MCP server.",
+    "developerName": "OpenAI",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://www.notion.com/",
+    "privacyPolicyURL": "https://www.notion.com/trust/privacy-policy",
+    "termsOfServiceURL": "https://www.notion.so/terms",
+    "defaultPrompt": "Use Notion context to capture knowledge, research linked pages, or turn a spec into an implementation plan with connected tasks.",
+    "composerIcon": "./assets/notion-small.svg",
+    "logo": "./assets/notion.png",
+    "screenshots": [],
+    "brandColor": "#000000"
+  }
+}
