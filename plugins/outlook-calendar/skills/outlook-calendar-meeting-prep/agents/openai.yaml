@@ -1,0 +1,4 @@
+interface:
+  display_name: "Outlook Calendar Meeting Prep"
+  short_description: "Turn an Outlook event into a prep brief"
+  default_prompt: "Use $outlook-calendar-meeting-prep to build a concise prep brief from this Outlook calendar event, its notes, response state, and Teams details."

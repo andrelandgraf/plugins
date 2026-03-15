@@ -1,0 +1,4 @@
+interface:
+  display_name: "Outlook Calendar Daily Brief"
+  short_description: "Summarize one day as a practical Outlook agenda"
+  default_prompt: "Use $outlook-calendar-daily-brief to summarize my day, including what is truly busy versus tentative or out of office."
