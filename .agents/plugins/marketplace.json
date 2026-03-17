@@ -2293,6 +2293,16 @@
         "source": "local",
         "path": "./plugins/quintoandar"
       }
+    },
+    {
+      "name": "neon-postgres",
+      "source": {
+        "source": "local",
+        "path": "./plugins/neon-postgres"
+      },
+      "installPolicy": "AVAILABLE",
+      "authPolicy": "ON_INSTALL",
+      "category": "Coding"
     }
   ]
 }
