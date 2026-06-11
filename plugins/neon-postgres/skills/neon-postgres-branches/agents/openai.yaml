@@ -1,0 +1,15 @@
+interface:
+  display_name: "Neon Postgres Branches"
+  short_description: "Choose and create the right Neon branch for testing and dev"
+  icon_small: "./assets/neon-small.svg"
+  icon_large: "./assets/neon.jpg"
+  brand_color: "#37C38F"
+  default_prompt: "Help me create a Neon branch to safely test a database migration."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "neon"
+      description: "Neon MCP server"
+      transport: "streamable_http"
+      url: "https://mcp.neon.tech/mcp"

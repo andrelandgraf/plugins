@@ -1,0 +1,15 @@
+interface:
+  display_name: "Neon"
+  short_description: "Overview of the Neon platform for apps and agents"
+  icon_small: "./assets/neon-small.svg"
+  icon_large: "./assets/neon.jpg"
+  brand_color: "#37C38F"
+  default_prompt: "Give me an overview of Neon and help me get started."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "neon"
+      description: "Neon MCP server"
+      transport: "streamable_http"
+      url: "https://mcp.neon.tech/mcp"
