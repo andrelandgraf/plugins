@@ -1,10 +1,10 @@
 interface:
-  display_name: "Neon Postgres Egress Optimizer"
-  short_description: "Diagnose and fix excessive Postgres data transfer costs"
+  display_name: "Neon Postgres Branches"
+  short_description: "Choose and create the right Neon branch for testing and dev"
   icon_small: "./assets/neon-small.svg"
   icon_large: "./assets/neon.jpg"
   brand_color: "#37C38F"
-  default_prompt: "Analyze my codebase for database query patterns that cause excessive data transfer and help me optimize them."
+  default_prompt: "Help me create a Neon branch to safely test a database migration."
 
 dependencies:
   tools:
